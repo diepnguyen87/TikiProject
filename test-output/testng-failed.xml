@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="environment" value="production"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="vn.tiki.TC_01_Search">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="TC_01_search_tikinow_products_by_name"/>
+        </methods>
+      </class> <!-- vn.tiki.TC_01_Search -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

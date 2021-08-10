@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  	<parameter name="environment" value="production" />
+    <classes>
+    	<parameter name="browserName" value="chrome" />
+      	<class name="vn.tiki.TC_01_Search"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
