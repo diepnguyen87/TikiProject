@@ -83,13 +83,13 @@ public class TC_01_Search extends AbstractTest {
 
 			// login Tiki with selenium
 			log.info("input phone number");
-			productPage.inputTelephomeNumber("0765889105");
+			productPage.inputTelephomeNumber("input phone number");
 
 			log.info("click button 'Tiep tuc'");
 			productPage.clickToContinueBtn();
 
 			log.info("input papssword");
-			productPage.inputPassword("987!Abcde");
+			productPage.inputPassword("input password");
 
 			log.info("click button 'Dang nhap'");
 			productPage.clickToLoginBtn();
