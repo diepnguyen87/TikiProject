@@ -18,7 +18,7 @@ import vn.tiki.page_object.HomePage;
 import vn.tiki.page_object.PageGeneratorManager;
 import vn.tiki.page_object.ProductDetailPage;
 import vn.tiki.page_object.ShoppingCartPage;
-
+//test commit git
 public class TC_01_Search extends AbstractTest {
 
 	private WebDriver driver;
