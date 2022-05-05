@@ -5,13 +5,13 @@
     <parameter name="environment" value="production"/>
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="vn.tiki.TC_01_Search">
+      <class name="vn.tinypulse.TC_01_AddPeople">
         <methods>
-          <include name="beforeClass"/>
+          <include name="TC_02_Add_People"/>
           <include name="afterClass"/>
-          <include name="TC_01_search_tikinow_products_by_name"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- vn.tiki.TC_01_Search -->
+      </class> <!-- vn.tinypulse.TC_01_AddPeople -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

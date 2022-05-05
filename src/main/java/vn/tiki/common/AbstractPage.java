@@ -148,11 +148,10 @@ public class AbstractPage {
 		if (driver.toString().toLowerCase().contains("chrome") || driver.toString().toLowerCase().contains("edge")) {
 			sleepInSecond(2);
 		}
-
 		element = getElement(driver, getDynamicLocator(locator, dynamicLocatorValues));
 		element.clear();
 		element.sendKeys(value);
-	}
+	} 
 
 	public void selectItemInDropdown(WebDriver driver, String locator, String itemValue, String... values) {
 		element = getElement(driver, getDynamicLocator(locator, values));

@@ -4,7 +4,9 @@
   	<parameter name="environment" value="production" />
     <classes>
     	<parameter name="browserName" value="chrome" />
-      	<class name="vn.tiki.TC_01_Search"/>
+      	<!-- <class name="vn.tiki.TC_01_Search"/> -->
+      	<class name="vn.tinypulse.TC_01_AddPeople"/>
+      	
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

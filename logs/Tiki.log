@@ -2457,3 +2457,17 @@
 2021-08-10 10:28:47,487 INFO  vn.tiki.TC_01_Search - get real price at row 1
 2021-08-10 10:28:47,617 INFO  vn.tiki.TC_01_Search - get quanity at row 1
 2021-08-10 10:28:47,736 INFO  vn.tiki.TC_01_Search - get final price at row 1
+2022-03-21 08:31:14,234 INFO  vn.tiki.TC_01_Search - Open webpage: https://www.tiki.vn/
+2022-03-21 08:31:18,262 INFO  vn.tiki.TC_01_Search - input 'samsung' into search field
+2022-03-21 08:31:21,153 INFO  vn.tiki.TC_01_Search - click search button
+2022-03-21 08:31:21,623 INFO  vn.tiki.TC_01_Search - click to TIKI NOW checkbox
+2022-03-21 08:36:17,527 INFO  vn.tiki.TC_01_Search - Open webpage: https://www.tiki.vn/
+2022-03-21 08:36:21,143 INFO  vn.tiki.TC_01_Search - input 'samsung' into search field
+2022-03-21 08:36:23,792 INFO  vn.tiki.TC_01_Search - click search button
+2022-03-21 08:36:24,015 INFO  vn.tiki.TC_01_Search - click to TIKI NOW checkbox
+2022-03-21 08:48:17,393 INFO  vn.tiki.TC_01_Search - Open webpage: https://www.tiki.vn/
+2022-03-21 08:48:19,954 INFO  vn.tiki.TC_01_Search - input 'samsung' into search field
+2022-03-21 08:48:22,811 INFO  vn.tiki.TC_01_Search - click search button
+2022-03-21 08:48:23,188 INFO  vn.tiki.TC_01_Search - click to TIKI NOW checkbox
+2022-05-05 17:49:25,649 INFO  vn.tiki.TC_01_Search - Open webpage: https://staging.tinyserver.info/auth
+2022-05-05 17:49:28,295 INFO  vn.tiki.TC_01_Search - input 'samsung' into search field

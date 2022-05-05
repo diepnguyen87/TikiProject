@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>D:\automation-workspace\TikiProject\src\test\resources\runTestCases.xml</span>
+                    <span>runTestCases.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="vn.tiki.TC_01_Search" class="method navigator-link" hash-for-method="TC_01_search_tikinow_products_by_name">TC_01_search_tikinow_products_by_name</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="vn.tinypulse.TC_01_AddPeople" class="method navigator-link" hash-for-method="TC_01_login">TC_01_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="vn.tinypulse.TC_01_AddPeople" class="method navigator-link" hash-for-method="TC_02_Add_People">TC_02_Add_People</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -120,14 +125,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">vn.tiki.TC_01_Search</span>
+              <span class="class-name">vn.tinypulse.TC_01_AddPeople</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_01_search_tikinow_products_by_name">
-                  </a> <!-- TC_01_search_tikinow_products_by_name -->
-                  <span class="method-name">TC_01_search_tikinow_products_by_name</span>
+                  <a name="TC_01_login">
+                  </a> <!-- TC_01_login -->
+                  <span class="method-name">TC_01_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_Add_People">
+                  </a> <!-- TC_02_Add_People -->
+                  <span class="method-name">TC_02_Add_People</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +147,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\automation-workspace\TikiProject\src\test\resources\runTestCases.xml</span>
+            <span class="header-content">/Users/diep.nguyen/git/TikiProject/src/test/resources/runTestCases.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,7 +158,7 @@
     &lt;parameter name=&quot;environment&quot; value=&quot;production&quot;/&gt;
     &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;vn.tiki.TC_01_Search&quot;/&gt;
+      &lt;class name=&quot;vn.tinypulse.TC_01_AddPeople&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -186,16 +198,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC_01_search_tikinow_products_by_name')
-data.setCell(0, 2, 'vn.tiki.TC_01_Search')
-data.setCell(0, 3, 82179);
+data.setCell(0, 1, 'TC_02_Add_People')
+data.setCell(0, 2, 'vn.tinypulse.TC_01_AddPeople')
+data.setCell(0, 3, 25317);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_01_login')
+data.setCell(1, 2, 'vn.tinypulse.TC_01_AddPeople')
+data.setCell(1, 3, 5016);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -221,18 +237,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">vn.tiki.TC_01_Search</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">vn.tinypulse.TC_01_AddPeople</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass(chrome, production)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">TC_01_search_tikinow_products_by_name</span>
-                <span class="method-start">16784 ms</span>
+                <span class="method-name">TC_01_login</span>
+                <span class="method-start">4822 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_02_Add_People</span>
+                <span class="method-start">9840 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">98968 ms</span>
+                <span class="method-start">35159 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
